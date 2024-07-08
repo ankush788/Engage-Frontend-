@@ -1,0 +1,48 @@
+.side-panel {
+  border-radius: 16px;
+  width: 100%;
+  margin-top: 12px;
+  padding-bottom: 10px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.side-panel .list-group{
+  border-radius: 16px;
+}
+
+.side-panel ul {
+  width: 100%;
+}
+
+.side-panel-item-container {
+  text-decoration: none;
+}
+
+.side-panel-item {
+  border: none;
+  padding: 10px 20px;
+  /* background-color: rgb(247, 249, 249); */
+  background-color: white;
+}
+
+.side-panel-item:hover {
+  background-color: rgb(211, 211, 211, 0.07);
+  cursor: pointer;
+}
+
+.side-panel-item:hover .name-and-id p {
+  text-decoration: underline;
+}
+
+.side-panel-item-content {
+  width: 100%;
+}
+
+/* -------- */
+.sidePanelItem-DarkMode {
+  /* border-radius: 40px !important; */
+  /* border-color: grey !important; */
+  /* margin: 5px 10px; */
+  border: none !important;
+}

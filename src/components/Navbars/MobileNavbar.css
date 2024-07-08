@@ -1,0 +1,12 @@
+.mobile-navbar {
+  background-color: rgb(247, 249, 249);
+  border-top: 0.9px solid rgb(211, 211, 211, 0.3);
+}
+
+.mobile-navbar ul:first-child {
+  height: 52px;
+}
+
+.mobile-navbar .nav-link {
+  padding: 0 !important;
+}

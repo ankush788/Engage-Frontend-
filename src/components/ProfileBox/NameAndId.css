@@ -1,0 +1,8 @@
+.name-and-id p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.name-and-id div span {
+  color: rgb(83, 100, 113);
+}

@@ -1,0 +1,51 @@
+.searchbar-container:focus-within .search-box-container {
+  display: flex !important;
+}
+
+.searchbar {
+  border-radius: 30px;
+  height: 48px;
+  padding: 12px;
+  background-color: rgb(247, 249, 249);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.searchbar:focus-within {
+  background-color: white;
+  border: 1px solid rgba(29, 161, 242);
+}
+
+.searchbar:focus-within .searchIcon {
+  color: rgba(29, 161, 242);
+}
+
+.searchbar input:focus {
+  background-color: white;
+}
+
+.searchbar input {
+  border: none;
+  padding-right: 12px;
+  width: 85%;
+  background-color: inherit;
+}
+
+.searchbar input:focus {
+  outline: none;
+}
+
+.search-box {
+  position: absolute;
+  border-radius: 16px;
+  max-height: 60vh;
+  overflow-y: auto;
+  background-color: white;
+  z-index: 99;
+  width: 100%;
+}
+
+.search-box-heading {
+  border-radius: 16px;
+  padding: 10px 20px;
+}
+

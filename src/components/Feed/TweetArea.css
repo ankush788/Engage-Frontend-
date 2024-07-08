@@ -1,0 +1,35 @@
+.tweet-area {
+  /* border-bottom: 0.9px solid rgb(211, 211, 211, 0.3);
+  border-right: 0.9px solid rgb(211, 211, 211, 0.3); */
+  padding: 16px 16px 2px 16px;
+  z-index: 2;
+  margin: 6px 0;
+  border-radius: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tweet-area .recording-button {
+  padding: 0;
+}
+
+.tweet-area .recording-button svg {
+  margin: 0;
+}
+
+.tweet-area-text-area {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  resize: none;
+  width: 100%;
+}
+
+.tweet-button {
+  border: none;
+  border-radius: 40px;
+  height: 32px;
+  outline: none;
+  padding: 4px 14px;
+  color: white;
+  background-color: #1da1f2;
+}

@@ -1,0 +1,4 @@
+1. To format all files at once, go to root directory and run the command: npx prettier --write .
+2. Tab spacing: 2
+3. Changing urls requires changing url in "apiConfig.js" for frontend.
+4. Development url - `http://localhost:3000`, Deployment url - `https://engageapp.vercel.app/`

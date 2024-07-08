@@ -1,0 +1,44 @@
+#Trending:hover {
+  background-color: rgb(247, 249, 249);
+}
+
+#Trending .Heading {
+  color: rgb(83, 100, 113);
+  border: none;
+  margin: 0;
+  padding-left: 0.5rem;
+  font-weight: 600;
+}
+
+#Trending .Hastag {
+  padding-left: 0.5rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+#Trending .Tweets {
+  padding-left: 0.5rem;
+  margin: 0;
+  font-weight: 600;
+  font-size: small;
+  color: rgb(83, 100, 113);
+}
+
+#Trending .Setting {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 0;
+  border: none;
+  margin-right: 5%;
+}
+
+#Trending .Hastag-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*------------------------------*/
+.trending-changes {
+  border-top-width: 0px !important;
+}

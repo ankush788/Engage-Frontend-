@@ -1,0 +1,33 @@
+.general-button-container {
+  text-decoration: none;
+}
+
+.general-button {
+  border: 0.9px solid #282829;
+  border-radius: 40px;
+  font-size: small;
+  height: 30px;
+  outline: none;
+  padding: 4px 12px;
+}
+
+.edit-profile-button {
+  background-color: #fff;
+  border: 0.9px solid rgb(211, 211, 211, 0.5);
+  border-radius: 20px;
+  height: 35px;
+  outline: none;
+  padding: 0 16px;
+}
+
+.edit-profile-button:hover {
+  background-color: rgb(233, 232, 232);
+}
+
+.darkButton-changes {
+  border-width: 0.5px !important;
+  border: white !important;
+}
+.darkButton-changes:hover {
+  border-color: rgb(206, 102, 102) !important;
+}

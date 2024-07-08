@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+/* Generics */
+
+/* Utilities */
+.bgc-white {
+  background-color: rgb(247, 249, 249);
+}
+
+.bgc-black {
+  background-color: black;
+}
+.anchor {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+
+.box-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
